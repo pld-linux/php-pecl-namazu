@@ -12,7 +12,6 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{_version}.tgz
 # Source0-md5:	3b1a01c812df4db4348b724f22fa2f09
 URL:		http://pecl.php.net/package/namazu/
-BuildRequires:	libtool
 BuildRequires:	namazu-devel
 BuildRequires:	php-devel >= 3:5.0.0
 Requires:	php-common >= 3:5.0.0
