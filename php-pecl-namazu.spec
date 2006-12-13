@@ -7,7 +7,7 @@ Summary(pl):	%{_modname} - pe³notekstowe wyszukiwanie z u¿yciem Namazu
 Name:		php-pecl-%{_modname}
 Version:	2.2.0
 %define		_rc RC1
-%define		_rel 5
+%define		_rel 6
 Release:	0.%{_rc}.%{_rel}
 License:	PHP
 Group:		Development/Languages/PHP
