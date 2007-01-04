@@ -46,7 +46,7 @@ phpize
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{php_sysconfdir}/conf.d,%{php_extensiondir}}
 
-install %{_modname}-%{version}/modules/%{_modname}.so $RPM_BUILD_ROOT%{php_extensiondir}
+install %{_modname}-%{version}%{_rc}/modules/%{_modname}.so $RPM_BUILD_ROOT%{php_extensiondir}
 cat <<'EOF' > $RPM_BUILD_ROOT%{php_sysconfdir}/conf.d/%{_modname}.ini
 ; Enable %{_modname} extension module
 extension=%{_modname}.so
