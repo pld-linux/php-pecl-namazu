@@ -1,7 +1,7 @@
 %define		_modname	namazu
 %define		_status		beta
 Summary:	%{_modname} - full-text search extension using Namazu
-Summary(pl):	%{_modname} - pe≥notekstowe wyszukiwanie z uøyciem Namazu
+Summary(pl.UTF-8):   %{_modname} - pe≈Çnotekstowe wyszukiwanie z u≈ºyciem Namazu
 Name:		php-pecl-%{_modname}
 Version:	2.2.0
 %define		_rc RC1
@@ -26,9 +26,9 @@ Namazu library. This extension is originally made by Takuya Tsukada.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-Namazu jest to system wyszukiwania pe≥notektsowego. Ten modu≥ jest
-interfejsem do biblioteki Namazu. Rozszerzenie pocz±tkowo naspisane
+%description -l pl.UTF-8
+Namazu jest to system wyszukiwania pe≈Çnotektsowego. Ten modu≈Ç jest
+interfejsem do biblioteki Namazu. Rozszerzenie poczƒÖtkowo naspisane
 przez Takuya Tsukada.
 
 To rozszerzenie ma w PECL status: %{_status}.
