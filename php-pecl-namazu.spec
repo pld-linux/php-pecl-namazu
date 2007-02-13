@@ -1,7 +1,7 @@
 %define		_modname	namazu
 %define		_status		beta
 Summary:	%{_modname} - full-text search extension using Namazu
-Summary(pl.UTF-8):   %{_modname} - pełnotekstowe wyszukiwanie z użyciem Namazu
+Summary(pl.UTF-8):	%{_modname} - pełnotekstowe wyszukiwanie z użyciem Namazu
 Name:		php-pecl-%{_modname}
 Version:	2.2.0
 %define		_rc RC1
