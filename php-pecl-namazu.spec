@@ -7,7 +7,7 @@ Version:	2.2.0
 %define		_rc RC1
 %define		_rel 6
 Release:	0.%{_rc}.%{_rel}
-License:	PHP
+License:	PHP or GPL
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}%{_rc}.tgz
 # Source0-md5:	3b1a01c812df4db4348b724f22fa2f09
