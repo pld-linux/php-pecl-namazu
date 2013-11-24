@@ -2,7 +2,7 @@
 %define		modname	namazu
 %define		status		beta
 %define		_rc RC1
-%define		rel 8
+%define		rel 9
 Summary:	%{modname} - full-text search extension using Namazu
 Summary(pl.UTF-8):	%{modname} - pełnotekstowe wyszukiwanie z użyciem Namazu
 Name:		%{php_name}-pecl-%{modname}
@@ -13,11 +13,12 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}%{_rc}.tgz
 # Source0-md5:	3b1a01c812df4db4348b724f22fa2f09
 URL:		http://pecl.php.net/package/namazu/
-BuildRequires:	namazu-devel
 BuildRequires:	%{php_name}-devel >= 3:5.0.0
+BuildRequires:	namazu-devel
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
-Requires:	php-common >= 4:5.0.4
+Requires:	php(core) >= 5.0.4
+Provides:	php(%{modname}) = %{version}
 Obsoletes:	php-pear-%{modname}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
