@@ -2,7 +2,7 @@
 %define		modname	namazu
 %define		status		beta
 %define		_rc RC1
-%define		rel 7
+%define		rel 8
 Summary:	%{modname} - full-text search extension using Namazu
 Summary(pl.UTF-8):	%{modname} - pełnotekstowe wyszukiwanie z użyciem Namazu
 Name:		%{php_name}-pecl-%{modname}
